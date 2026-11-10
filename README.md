@@ -1,7 +1,7 @@
 # Padding Oracle Solver
 
 A Padding Oracle exploitation script in Python intended to be easy and flexible to use.
- - Designed and used for CTFs where simplicity (HA!) and speed are paramount.
+ - Designed for CTFs where simplicity (HA!) and speed are paramount.
  - Minimal imports: should not require external dependencies / installation. `cat > ` it onto your machine and run it.
  - Minimal functionality compared to ORCA - no fancy HTTP2 time based detection.
  - No command line input - you modify one function (which interfaces with your target however you like - that's your job!), and paste your payload into the script.
