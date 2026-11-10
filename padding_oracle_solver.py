@@ -317,9 +317,12 @@ def bytewise_decrypter(internal_intermediary_value, internal_ciphertext):
 def check_for_padding_error(full_encrypted_bytes):
     
     # Here's where you add the code that will send in full_encrypted_bytes to your target
-    # one of your 256 results should cause thing_that_changes or one of the other values returned to change  
+    # one of your 256 results should cause thing_that_changes or one or many of the other values returned to change  
      
-    # downstream functions expect a tuple with these data types
+    # downstream functions expect a tuple with the data types used below
+    # it will be easiest to stick to these data types:
+    # ('Y', 'N', 500, 30, 'N/A', 0.00393774700000904)    
+    
     # you can use all or just one of them 
     # detection logic only needs one to change    
     return thing_that_changes, "1", int_1, int_2, "1", "1"
